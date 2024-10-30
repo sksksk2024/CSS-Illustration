@@ -393,3 +393,38 @@ form i{
   }
 
 }
+
+@media (max-width: 400px) {
+
+  .first {
+    max-height: 62vh;
+  }
+
+  .border {
+    left: 12%;
+  }
+
+  .second {
+    display: flex;
+    gap: 0;
+  }
+
+  .book {
+    min-width: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    margin: unset;
+  }
+
+  .book h1 {
+    font-size: 35px;
+  }
+
+  .book p {
+    max-width: 286px;
+    margin-bottom: 40px;
+  }
+
+  
+}
